@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khumbham Mani Charan - Portfolio</title>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #e0f7e7;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 15px;
+      box-shadow:
+        0 0 20px #00ff6a33,
+        inset 0 0 50px #00ff6a22;
+      transition: background 0.5s ease;
+    }
+    header {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 15px;
+      box-shadow: 0 0 15px #00ff6a66;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow:
+        0 8px 15px rgba(0, 255, 106, 0.4),
+        0 0 15px rgba(0, 255, 106, 0.3);
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    header img:hover {
+      transform: scale(1.1) rotate(3deg);
+      box-shadow:
+        0 12px 30px rgba(0, 255, 106, 0.6),
+        0 0 30px rgba(0, 255, 106, 0.5);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #00ff6a;
+      margin-bottom: 0.3rem;
+      text-shadow: 0 0 8px #00ff6a88;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #b8f5be;
+      max-width: 650px;
+      margin: auto;
+      line-height: 1.5;
+      text-shadow: 0 0 6px #004d0022;
+    }
+    section {
+      margin-top: 3rem;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #00ff6a44;
+      margin-bottom: 2.5rem;
+      transition: background 0.3s ease;
+    }
+    section:hover {
+      background: rgba(0, 255, 106, 0.12);
+    }
+    .section-title {
+      color: #00ff6a;
+      font-size: 1.9rem;
+      margin-bottom: 1.2rem;
+      border-bottom: 3px solid #00ff6aaa;
+      width: fit-content;
+      padding-bottom: 0.3rem;
+      text-shadow: 0 0 6px #00ff6aaa;
+    }
+    ul {
+      list-style: none;
+      padding-left: 1.2rem;
+      color: #c9f7d0;
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+    ul li::before {
+      content: '➤';
+      color: #00ff6a;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    a {
+      color: #00ff6a;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #80ffb0;
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #6fcf97;
+      margin-top: 4rem;
+      text-shadow: 0 0 3px #004d0022;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://github.com/manicharan011.png" alt="Khumbham Mani Charan" />
+    <h1>Khumbham Mani Charan</h1>
+    <p>
+      I am a CSE undergraduate student at IIIT Basar, passionate about AI and ML. I have problem-solving skills in DSA. I love learning new technologies and working with creative projects. For more info, visit my <a href="https://www.linkedin.com/in/manicharan-khumbham-a8a30429a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+    </p>
+  </header>
+
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <ul>
+      <li>C, C++, Python, Java</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Data Structures and Algorithms (DSA)</li>
+      <li>NumPy, Pandas, AI Tools</li>
+      <li>Frontend Development</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <ul>
+      <li>📱 Calculator (HTML/CSS)</li>
+      <li>🌦️ Weather App (Python)</li>
+      <li>📰 News App (HTML/CSS/JS)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:khumbhammanicharan@gmail.com">khumbhammanicharan@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/manicharan011" target="_blank" rel="noopener noreferrer">github.com/manicharan011</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/manicharan-khumbham-a8a30429a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/manicharan-khumbham</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Khumbham Mani Charan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
